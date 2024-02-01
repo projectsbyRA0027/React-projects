@@ -1,0 +1,20 @@
+.header{
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    background-color: #f1f1f1;
+    height: 1.7rem;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.nav-link_container{
+    display: flex;
+    gap: 42px;
+}
