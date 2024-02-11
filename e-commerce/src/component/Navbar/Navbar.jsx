@@ -1,6 +1,6 @@
 import { useContext,useState } from "react";
 import {CartContext} from "../../context/CartProvider";
-import{link,Navlink} from "react-router-dom";
+import{Link,NavLink} from "react-router-dom";
 import{ShoppingCart} from "phosphor-react";
 import SlidingCart from "./SlidingCart";
 import "./Navbar.css";
@@ -15,7 +15,7 @@ function Navbar(){
     return(
         <header className={`header ${showCart ? "visible":""}`}>
             <Navigations toggleShowcart={toggleShowcart}/>
-            <SlidingCart toggleShowCart={toggleShowCart} />
+            <SlidingCart toggleShowCart={toggleShowcart} />
             <CartSliderOverlay />
         </header>
     );

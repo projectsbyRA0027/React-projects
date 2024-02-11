@@ -3,7 +3,7 @@ import{
   Route,
   createRoutesFromElements,
   CreateBrowserRouter,
-  RouteProvider,
+  RouterProvider,
   createBrowserRouter,
 }from "react-router-dom";
 
@@ -35,7 +35,7 @@ function App() {
   return (
     <>
     <CartProvider>
-      <RouteProvider router={router} />
+      <RouterProvider router={router} />
       <Toaster 
       toastOptions={{
         style:{

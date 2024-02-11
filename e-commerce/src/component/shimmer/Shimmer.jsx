@@ -7,3 +7,5 @@ function Shimmer(){
     </div>
     );
 }
+
+export default Shimmer;

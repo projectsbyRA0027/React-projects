@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import {CartContext} from "../../context/CartProvider";
-import {ShoppingCart,X}from "phosper-react";
-import {link} from "react-router-dom";
+import {ShoppingCart,X}from "phosphor-react";
+import {Link} from "react-router-dom";
 import "./SlidingCart.css";
 import toast from "react-hot-toast";
 
