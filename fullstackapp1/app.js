@@ -1,6 +1,6 @@
 let express = require('express')
- ,routes = require('./Routes')
- ,user = require('./Routes/user')
+ ,routes = require('./routes')
+ ,user = require('./routes')
  ,http = require('http')
  ,path = require('path');
 
